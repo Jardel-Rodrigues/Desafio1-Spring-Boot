@@ -16,6 +16,7 @@ public class Desafio1Application implements CommandLineRunner {
 	public void run(String... args) throws Exception {
 		System.out.println("Teste");
 		
+		
 	}
 
 }
