@@ -10,10 +10,10 @@ public class ShippingService {
 	public double shipment(Order order) {
 		double valorFrete = 0.0;
 		if (order.getBasic() < 100) {
-			valorFrete = order.getBasic() + 20;
+			valorFrete = 20;
 		}
-		else if(order.getBasic() >= 100 || order.getBasic() <= 200) {
-			valorFrete = order.getBasic() + 12;
+		else if(order.getBasic() >= 100 && order.getBasic() <= 200) {
+			valorFrete = 12;
 		}
 		return valorFrete;
 	}
